@@ -15,6 +15,7 @@ X2 = test.values[:,1:] # same with above
 
 X = np.concatenate((X1,X2), axis= 0)
 
+np.amax()
 
 y3 = train.values[:-1]
 y1 = train.values[:,-1]
